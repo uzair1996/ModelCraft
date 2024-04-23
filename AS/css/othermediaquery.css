@@ -1,0 +1,653 @@
+/* Big tablet to 1200px :(width smaller that the 1140px) */
+@media only screen and (max-width: 1500px){
+
+}
+@media only screen and (max-width: 1200px){
+
+}
+
+
+/* Small tablet to big tablet:  From 768  to 1023 */
+@media only screen and (max-width: 1023px){
+
+  /************************************************/
+  /**------------- FOR INDEX PAGE----------------**/
+  /************************************************/
+}
+
+
+@media only screen and (max-width: 930px){
+
+/************************************************/
+/**------------- FOR INDEX PAGE----------------**/
+/************************************************/
+  .cart-table-div{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin-left: 0 !important;
+  margin-top: 10%;
+}
+.right-side-view{
+  width: 50%;
+  margin-left: 20%;
+  float: left;
+  text-align: center;
+}
+
+    .left-section{
+  width: 100%;
+  float: left;
+}
+.left-section img{
+  width: 80%;
+  height: 80%;
+  margin-left: 5%;
+  margin-top: 15%;
+}
+  .right-section{
+  float: right;
+  width: 100%;
+  padding: none !important;
+}
+
+
+  .footer-left{
+  width: 80% !important;
+  margin-left: 10%;
+
+}
+.ar{
+  display: none !important;
+}
+.footer-middle{
+  width: 90%;
+  margin-left: 6%;
+
+}
+.footer-middle input{
+  width: 35%;
+  margin-top: 5%;
+  margin-left: 30%;
+}
+.footer-right{
+  width: 90%;
+  margin-left: 5%;
+
+}
+.footer-right i{
+  margin-top: 5%;
+  margin-left: 5%;
+  color: white;
+}
+.aouther-line{
+  padding-top: 40% !important;
+  padding-bottom: 7% !important;
+  width: 90%;
+  margin-left: 5%;
+}
+.aouther-line p{
+  font-size: 85%;
+}
+
+
+   
+}
+@media only screen and (max-width: 830px){
+/************************************************/
+/**------------- FOR INDEX PAGE----------------**/
+/************************************************/
+  .cart-table-div{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin-left: 0 !important;
+  margin-top: 10%;
+}
+.right-side-view{
+  width: 50% !important;
+  margin-left: 20% !important;
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+    .left-section{
+  width: 100%;
+  float: left;
+}
+.left-section img{
+  width: 80%;
+  height: 80%;
+  margin-left: 5%;
+  margin-top: 15%;
+}
+  .right-section{
+  float: right;
+  width: 100%;
+  padding: none !important;
+}
+
+
+  .footer-left{
+  width: 80% !important;
+  margin-left: 10%;
+
+}
+.ar{
+  display: none !important;
+}
+.footer-middle{
+  width: 90%;
+  margin-left: 6%;
+
+}
+.footer-middle input{
+  width: 35%;
+  margin-top: 5%;
+  margin-left: 30%;
+}
+.footer-right{
+  width: 90%;
+  margin-left: 5%;
+
+}
+.footer-right i{
+  margin-top: 5%;
+  margin-left: 5%;
+  color: white;
+}
+.aouther-line{
+  padding-top: 40% !important;
+  padding-bottom: 7% !important;
+  width: 90%;
+  margin-left: 5%;
+}
+.aouther-line p{
+  font-size: 85%;
+}
+
+
+}
+
+/* Small Phone:  From 481px to 767 */
+@media only screen and (max-width: 767px){
+
+/************************************************/
+/**------------- FOR INDEX PAGE----------------**/
+/************************************************/
+  .cart-table-div{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin-left: 0 !important;
+  margin-top: 10%;
+}
+.right-side-view{
+    width: 50% !important;
+  margin-left: 20% !important;
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+h3{
+  font-size: 110%;
+}
+.navigation li{
+  margin-top: 1% !important;
+}
+.ar{
+  display: none !important;
+}
+    .left-section{
+  width: 100%;
+  float: left;
+}
+.left-section img{
+  width: 80%;
+  height: 80%;
+  margin-left: 5%;
+  margin-top: 15%;
+}
+  .right-section{
+  float: right;
+  width: 100%;
+  padding: none !important;
+}
+
+.footer-left{
+  width: 80% !important;
+  margin-left: 10%;
+
+}
+
+.footer-middle{
+  width: 90%;
+  margin-left: 6%;
+
+}
+.footer-middle input{
+  margin-top: 5%;
+  margin-left: 35%;
+}
+.footer-right{
+  width: 90%;
+  margin-left: 5%;
+
+}
+.footer-right i{
+  margin-top: 5%;
+  margin-left: 5%;
+  color: white;
+}
+.aouther-line{
+  padding-top: 45% !important;
+  padding-bottom: 7% !important;
+  width: 90%;
+  margin-left: 5%;
+}
+.aouther-line p{
+  font-size: 85%;
+}
+ 
+}
+
+
+@media only screen and (max-width: 680px){
+
+  /************************************************/
+  /**------------- FOR INDEX PAGE----------------**/
+  /************************************************/
+    .cart-table-div{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin-left: 0 !important;
+  margin-top: 10%;
+}
+.right-side-view{
+  width: 100%;
+  float: none;
+  text-align: center;
+}
+
+      .left-section{
+  width: 100%;
+  float: left;
+}
+.left-section img{
+  width: 80%;
+  height: 80%;
+  margin-left: 5%;
+  margin-top: 15%;
+}
+  .right-section{
+  float: right;
+  width: 100%;
+  padding: none !important;
+}
+
+.footer-left{
+  width: 80% !important;
+  margin-left: 10%;
+
+}
+
+.footer-middle{
+  width: 90%;
+  margin-left: 6%;
+
+}
+.footer-middle input{
+  margin-top: 5%;
+  margin-left: 35%;
+}
+.footer-right{
+  width: 90%;
+  margin-left: 5%;
+
+}
+.footer-right i{
+  margin-top: 5%;
+  margin-left: 5%;
+  color: white;
+}
+.aouther-line{
+  padding-top: 45% !important;
+  padding-bottom: 7% !important;
+  width: 90%;
+  margin-left: 5%;
+}
+.aouther-line p{
+  font-size: 85%;
+}
+
+
+@media only screen and (max-width: 580px){
+
+  /************************************************/
+  /**------------- FOR INDEX PAGE----------------**/
+  /************************************************/
+
+    .cart-table-div{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin-left: 0 !important;
+  margin-top: 10%;
+}
+.right-side-view{
+  width: 100%;
+  float: none;
+  text-align: center;
+}
+
+      .left-section{
+  width: 100%;
+  float: left;
+}
+.left-section img{
+  width: 80%;
+  height: 80%;
+  margin-left: 5%;
+  margin-top: 15%;
+}
+  .right-section{
+  float: right;
+  width: 100%;
+  padding: none !important;
+}
+
+
+.footer-left{
+  width: 90%;
+  margin-left: 10%;
+
+}
+
+.footer-middle{
+  width: 90%;
+  margin-left: 6%;
+
+}
+.footer-middle input{
+  margin-top: 5%;
+  margin-left: 20%;
+}
+.footer-right{
+  width: 90%;
+}
+.footer-right i{
+  margin-top: 5%;
+  margin-left: 5%;
+  color: white;
+}
+.aouther-line{
+  width: 90%;
+  margin-left: 5%;
+  padding-top: 50% !important;
+  padding-bottom: 7% !important;
+}
+  
+}
+
+
+/* Small Phone:  From 0 to 480 */
+@media only screen and (max-width: 480px){
+
+  /************************************************/
+  /**------------- FOR INDEX PAGE----------------**/
+  /************************************************/
+    .cart-table-div{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin-left: 0 !important;
+  margin-top: 10%;
+}
+.right-side-view{
+  width: 100%;
+  float: none;
+  text-align: center;
+}
+
+      .left-section{
+  width: 100%;
+  float: left;
+}
+.left-section img{
+  width: 80%;
+  height: 80%;
+  margin-left: 5%;
+  margin-top: 15%;
+}
+  .right-section{
+  float: right;
+  width: 100%;
+  padding: none !important;
+}
+
+
+.footer-left{
+  margin-left: 10%;
+  width: 90%;
+}
+
+.footer-middle{
+  width: 90%;
+  margin-left: 6%;
+}
+.footer-middle input{
+  margin-top: 5%;
+  margin-left: 20%;
+}
+.footer-right{
+  width: 90%;
+}
+.footer-right i{
+  margin-top: 5%;
+  margin-left: 5%;
+  color: white;
+}
+.aouther-line{
+  padding-top: 55% !important;
+  padding-bottom: 7% !important;
+}
+   
+}
+
+@media only screen and (max-width: 450px){
+
+  /************************************************/
+  /**------------- FOR INDEX PAGE----------------**/
+  /************************************************/
+    .cart-table-div{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin-left: 0 !important;
+  margin-top: 10%;
+}
+.right-side-view{
+  width: 100%;
+  float: none;
+  text-align: center;
+}
+
+    .left-section{
+  width: 100%;
+  float: left;
+}
+.left-section img{
+  width: 80%;
+  height: 80%;
+  margin-left: 5%;
+  margin-top: 15%;
+}
+  .right-section{
+  float: right;
+  width: 100%;
+  padding: none !important;
+}
+
+
+  .footer-left{
+  width: 90%;
+  margin-left: 10%;
+}
+
+.footer-middle{
+  margin-left: 5%;
+  width: 90%;
+}
+.footer-middle input{
+  margin-top: 5%;
+  margin-left: 20%;
+}
+.footer-right{
+  /*margin-left: 10%;*/
+  width: 90%;
+
+}
+.footer-right i{
+  margin-top: 5%;
+  margin-left: 5%;
+  color: white;
+}
+.aouther-line{
+  padding-top: 65% !important;
+  padding-bottom: 7% !important;
+}
+  
+}
+
+
+@media only screen and (max-width: 370px){
+
+  /************************************************/
+  /**------------- FOR INDEX PAGE----------------**/
+  /************************************************/
+
+    .cart-table-div{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin-left: 0 !important;
+  margin-top: 10%;
+}
+.right-side-view{
+  width: 100%;
+  float: none;
+  text-align: center;
+}
+
+    .left-section{
+  width: 100%;
+  float: left;
+}
+.left-section img{
+  width: 80%;
+  height: 80%;
+  margin-left: 5%;
+  margin-top: 15%;
+}
+  .right-section{
+  float: right;
+  width: 100%;
+  padding: none !important;
+}
+
+  .product-div{
+  width: 100%;
+  height:400px;
+}
+
+
+.footer-left{
+  width: 90%;
+}
+
+.footer-middle{
+  width: 90%;
+}
+.footer-middle input{
+  margin-top: 5%;
+  margin-left: 20%;
+}
+.footer-right{
+  width: 90%;
+
+}
+.footer-right i{
+  margin-top: 5%;
+  margin-left: 5%;
+  color: white;
+}
+.aouther-line{
+  padding-top: 65% !important;
+  padding-bottom: 7% !important;
+}
+  
+}
+
+
+@media only screen and (max-width: 350px){
+
+  /************************************************/
+  /**------------- FOR INDEX PAGE----------------**/
+  /************************************************/
+  .cart-table-div{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin-left: 0 !important;
+  margin-top: 10%;
+}
+.right-side-view{
+  width: 100%;
+  float: none;
+  text-align: center;
+}
+  .left-section{
+  width: 100%;
+  float: left;
+}
+.left-section img{
+  width: 80%;
+  height: 80%;
+  margin-left: 5%;
+  margin-top: 15%;
+}
+  .right-section{
+  float: right;
+  width: 100%;
+  padding: none !important;
+}
+
+.footer-left{
+  width: 100%;
+}
+
+.footer-middle{
+  width: 100%;
+}
+.footer-middle input{
+  margin-top: 5%;
+  margin-left: 20%;
+}
+.footer-right{
+  width: 100%;
+
+}
+.footer-right i{
+  margin-top: 5%;
+  margin-left: 5%;
+  color: white;
+}
+.aouther-line{
+  padding-top: 65% !important;
+  padding-bottom: 7% !important;
+}
+
+}

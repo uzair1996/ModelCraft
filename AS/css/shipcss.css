@@ -1,0 +1,27 @@
+input[type=text]{
+  width: 100%;
+}
+*{
+  font-weight: 100;
+}
+.phone{
+  width: 100% !important;
+}
+select{
+  font-weight: 100;
+  width: 39.1%;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding-left: 5px;
+  font-size: 20px;
+  vertical-align: middle;
+}
+input[type=number]{
+  width: 20%;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

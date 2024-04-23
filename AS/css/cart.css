@@ -1,0 +1,324 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html, body{
+	background-color: #fff;
+	font-family: 'Lato', 'Arial', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	height: 100%;
+	width: 100%;
+	text-rendering: optimizeLegibility;
+}
+
+
+.hedear{
+  width: 100%;
+  margin: 0;
+  position: relative;
+}
+header{
+  position: relative;
+  width: 100%;
+  height: 15%;
+  background-color: white;
+  float: left;
+  display: inline-block;
+  box-shadow: -2px 2px 10px white;
+  overflow: hidden;
+}
+.logo{
+  width: 15%;
+  height: 100%;
+  float: left;
+}
+header img{
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 1%;
+}
+.navigation{
+  width: 70%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  list-style: none;
+}
+.navigation li{
+  margin-left: 6%;
+  margin-top: 2%;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+h3{
+  font-size: 120%;
+  margin-top: 1%;
+  margin-left: 5%;
+  font-weight: 300;
+  opacity: 0.7;
+
+}
+.navigation li a{
+  text-decoration: none;
+  color: black;
+  font-size: 70%;
+  font-weight: 400;
+  opacity: 0.7;
+}
+.navigation ul{
+  list-style: none;
+}
+.right-navigation{
+  width: 15%;
+  height: 100%;
+  float: right;
+}
+.right-navigation li{
+  display: inline-block;
+  margin-left: 20%;
+  margin-top: 20%;
+  text-align: center;
+  font-size: 110%;
+  cursor: pointer;
+  opacity: 0.7;
+
+}
+.right-navigation li a{
+  text-decoration: none;
+  color: black;
+}
+.right-navigation li a:hover{
+  color: green;
+}
+.login-logout{
+  background-color: white;
+  border: none;
+  font-size: 110%;
+  cursor: pointer;
+}
+.login-logout:hover{
+  color: green;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal {
+    display: none;  /*Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;  /*Full width*/ 
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: white;
+    margin: auto;
+    padding: 0;
+    border-radius: 3%; 
+    border: 1px solid #888;
+    width: 300px;
+    height: 450px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    text-align: center;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* cart start */
+.cart-upper-section{
+  width: 100%;
+  height: auto;
+  overflow: auto;
+  /*position: absolute;*/
+  /*margin-top: 12%;*/
+}
+.cart-upper-section h4{
+  text-align: center;
+  font-size: 70%;
+  color: gray;
+
+}
+.cart-upper-section span{
+  font-size: 80%;
+  color: green;
+}
+.cart-upper-section a{
+  text-decoration: none;
+  color: lightgray;
+}
+.cart-upper-section h3{
+  font-weight: 400;
+  font-size: 90%;
+  margin-top: 3%;
+}
+.cart-table-div{
+  text-align: center;
+  width: 65%;
+  height: auto;
+  margin-left: 5%;
+  float: left;
+  margin-top: 2%;
+}
+.customers td, .customers th {
+    border: 1px solid #ddd;
+    padding: 2px;
+}
+
+.customers th {
+    padding : 3%;
+    text-align: left;
+    color: black;
+    font-weight: 400;
+    font-size: 90%;
+}
+.customers td {
+  width: 190px;
+  height: 80px;
+  font-weight: 200;
+  font-size: 80%;
+  text-align: left;
+} 
+.customers td img{
+  width: 70px;
+  height: 70px;
+}
+.customers td span{
+  font-size: 140%;
+}
+.right-side-view{
+  width: 30%;
+  float: right;
+  text-align: center;
+}
+.right-side-view img{
+  margin-top: 5%;
+}
+.buttons{
+  margin-top: 10%;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  width: 250px;
+  cursor: pointer;
+  font-size: 80%;
+  height: 50px;
+  background-color: black;
+  color: white;
+}
+
+.buttons:hover{
+  color: green;
+  font-size: 82%;
+}
+footer{
+  margin-top: 10%;
+  width: 100%;
+  height: auto;
+  background-color: black;
+}
+.footer-left{
+  margin-left: 3.3%;
+  width: 30%;
+  /*height: 80%;*/
+  float: left;
+  text-align: center;
+}
+.foo h5, a{
+  font-weight: 400;
+  margin-top: 5%;
+  color: white;
+  text-align: center;
+  font-size: 70%;
+  text-transform: uppercase;
+} 
+.footer-left a{
+  cursor: pointer;
+}
+.footer-middle{
+  margin-left: 3.3%;
+  width: 30%;
+  /*height: 80%;*/
+  float: left;
+}
+.footer-middle input{
+  margin-top: 5%;
+  margin-left: 13%;
+}
+.footer-right{
+  margin-left: 3.3%;
+  width: 30%;
+  /*height: 80%;*/
+  float: left;
+  text-align: center;
+}
+.footer-right i{
+  margin-top: 7%;
+  margin-left: 5%;
+  color: white;
+}
+.aouther-line{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+.aouther-line p{
+  color: white;
+  font-size: 60%;
+  font-weight: 100;
+  margin-top: 5%;
+}
